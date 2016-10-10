@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Warmup</title>
+  <!-- load normalize.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/warmup.css"></link>
 </head>
 <body>
 
   <h1>Cut-Out Art</h1>
-  
+
   <svg xmlns="http://www.w3.org/2000/svg" width=600 height=400>
 
     <!-- do not style this rectangle -->
@@ -35,9 +37,9 @@
       <circle cx=300 cy=255 r=100 />
     </g>
 
-    <!-- this circle should also be colored `#c0c0c0`, 
-        but have a stroke colored `#bd250d` width a width of 4px 
-        
+    <!-- this circle should also be colored `#c0c0c0`,
+        but have a stroke colored `#bd250d` width a width of 4px
+
         In addition, when you `hover` over this circle, its fill should also
         become `#bd250d`
         -->
@@ -49,11 +51,10 @@
     <path class="same" d="M230,210 L370,210 L370,280 L230,280 Z" />
 
     <!-- this circle should be colored black
-        Hint: try to use the `:last-child` pseudo-class combined with a 
+        Hint: try to use the `:last-child` pseudo-class combined with a
         "child selector" (`>`) -->
     <circle cx=300 cy=210 r=50 />
 
   </svg>
-
 </body>
 </html>
